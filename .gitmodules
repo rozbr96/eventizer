@@ -1,0 +1,6 @@
+[submodule "front"]
+	path = front
+	url = ../eventizer-front
+[submodule "back"]
+	path = back
+	url = ../eventizer-back
