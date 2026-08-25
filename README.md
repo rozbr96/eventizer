@@ -1,10 +1,11 @@
 
+
 # How To
 
 
 ## Clone this repo
 ```bash
-git clone https://github.com:rozbr96/eventizer
+git clone https://github.com/rozbr96/eventizer
 ```
 
 ## Change dir
@@ -24,7 +25,7 @@ git submodule update --recursive
 
 ## Set your TMDb API authorization token
 ```bash
-token=your token goes here
+token="your token goes here"
 sed -Ei "s/=$/=$token/" .env.api
 ```
 
@@ -63,3 +64,4 @@ Visit [http://localhost](http://localhost)
 **Hint**: For account creation, you can use any email, as longs as it's a valid format.
 
 You can check your received emails at [http://localhost/mailer](http://localhost/mailer)
+
