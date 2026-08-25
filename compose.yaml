@@ -2,7 +2,7 @@ services:
   api:
     image: node:24.19
     working_dir: /app
-    command: sh -c "npm install && npx prisma db push && npm run build && npm start"
+    command: sh -c "npm install && npx prisma generate && npx prisma db push && npm run build && npm start"
     env_file:
       - .env.api
     volumes:
